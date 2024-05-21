@@ -54,7 +54,7 @@ function onMovePacman(ev) {
     if (nextCell === SUPER_FOOD) {
         if (gPacman.isSuper) return;
         gPacman.isSuper = true;
-        var audio = new Audio("../audio/bonus.wav");
+        var audio = new Audio("audio/bonus.wav");
         audio.play();
         for (var ghostIdx = 0; ghostIdx < gGhosts.length; ghostIdx++) {
             renderGhost(gGhosts[ghostIdx])

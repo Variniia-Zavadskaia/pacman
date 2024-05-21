@@ -92,7 +92,7 @@ function deadGhost(nextLocation) {
         updateScore(1);
     }
     gDeadGhost.push(deadGhost);
-    var audio = new Audio("../audio/ghost-dead.wav");
+    var audio = new Audio("audio/ghost-dead.wav");
     audio.play();
 }
 

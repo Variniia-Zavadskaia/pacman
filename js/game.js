@@ -149,10 +149,10 @@ function gameOver(isWin) {
     renderCell(gPacman.location, EMPTY)
     onOpenModal(isWin)
     if (!isWin) {
-        var audio = new Audio("../audio/dead.wav");
+        var audio = new Audio("audio/dead.wav");
         audio.play();
     } else {
-        var audio = new Audio("../audio/victory.mp3");
+        var audio = new Audio("audio/victory.mp3");
         audio.play();
     }
 
